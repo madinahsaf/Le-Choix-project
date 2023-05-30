@@ -1,8 +1,11 @@
  @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+ body {
+  margin: 0;
+ }
 
 .wrapper {
-  width: 390px;
+  max-width: 390px;
   height: 844px;
   margin: 0 auto;
 }
@@ -20,7 +23,8 @@ nav ul {
   text-align: center;
   padding-left: 0;
   justify-content: space-between;
-  gap: 108px;
+  width: 100%;
+  padding: 0 10px;
 }
 
 
@@ -115,8 +119,8 @@ width: 230px;
 .flex-box {
   display: flex;
   gap: 2rem;
-  margin-bottom: 50px;
-  box-shadow: 0 0.5px 0 0 rgb(34, 33, 33); 
+  margin: 0 -10px 50px;
+  box-shadow: 0 4px 4px 0 rgba(34, 33, 33, 0.25); 
 }
 
 .flex-box:hover {
@@ -124,7 +128,9 @@ width: 230px;
   
 }
  
-
+.back-img {
+  padding: 0 10px;
+}
 
 .dupe-name {
   font-size: medium;
@@ -138,12 +144,13 @@ width: 230px;
   background-color: #422622;
   color: white;
   border: none;
-  height: 36px;
-  width: 150px;
   border-radius:2px;
   cursor: pointer;
   margin-right: 8px;
   text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
 }
 
 
