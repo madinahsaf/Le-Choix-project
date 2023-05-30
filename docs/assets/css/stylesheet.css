@@ -12,9 +12,10 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: center;
   font-size: 1.5em;
+  margin-right: 40px;
 }
 
 nav ul {
@@ -22,9 +23,10 @@ nav ul {
   display: flex;
   text-align: center;
   padding-left: 0;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   padding: 0 10px;
+  
 }
 
 
