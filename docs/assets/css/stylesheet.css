@@ -115,7 +115,16 @@ width: 230px;
 .flex-box {
   display: flex;
   gap: 2rem;
+  margin-bottom: 50px;
+  box-shadow: 0 0.5px 0 0 rgb(34, 33, 33); 
 }
+
+.flex-box:hover {
+  opacity: 0.8;
+  
+}
+ 
+
 
 .dupe-name {
   font-size: medium;
